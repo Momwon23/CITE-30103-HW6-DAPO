@@ -1,0 +1,11 @@
+Question 6 [4 points]
+Find and correct all identifier naming errors below. Explain which rules are violated.
+int 1value = 10;
+float avg-rate = 12.5;
+char Class = 'A';
+
+
+Answer: 
+- int 1value: breaks the first rule, which is it must begin with a letter or underscore symbol, int 1value starts with 1 so it fails the naming rules.
+- avg-rate: is not a valid name for an identifier because (-) breaks the rules for c , which states the names must consist of letters, digits, or underscores only, a dash breaks that rule.
+- Class: breaks the rules of using a C reserved word.

@@ -1,0 +1,3 @@
+The bug was that the user tried to print a float value without explictly saying that the calculation was to be outputed as a float, it was simply put in float avg= (a+b)/2; so that  means that the division was using arithmetic before the float variable ever got assigned to it.
+
+Error: computational/ arithmetic

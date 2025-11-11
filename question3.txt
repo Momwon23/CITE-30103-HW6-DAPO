@@ -1,0 +1,3 @@
+What happens if #include <stdio.h> is removed from a program that calls printf? identify the stage that will fail and describe the error message you expect.
+
+- theh link between the functions like printf and scanf dont get linked with the program, the prre information to the compiler about the library functions is nevers used along with the relevant codes to be executed.

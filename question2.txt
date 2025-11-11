@@ -1,0 +1,10 @@
+Explain, step-by-step, how a C program moves from source code to execution. List the stages
+(preprocessing, compilation, assembly, linking, loading) and mention one possible error at each
+stage.
+
+
+Editor: program is created in editor and stored on disks. source file created using text editors such as vim ... etc.
+Preprocessor: the preprocessor program processes the code.
+Compiler: Compiler creates object code and stores it on a disk. compiler checks the program for syntax and semantic errors. assmebly code gets converted into object code.
+Linker: links the object code with the libraries, and creates a.out and store it on a disk.
+Loader: loader puts program in memory.

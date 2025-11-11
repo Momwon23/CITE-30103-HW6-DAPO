@@ -1,0 +1,3 @@
+Bug: the correct scanf format to handle input was not used, didnt use & which would have saved the memory address for n.
+
+error type: scanf error/ format error.

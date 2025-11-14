@@ -1,0 +1,6 @@
+The issue is a precedence issue: the + has a higher precedence than the << so its read as (a+b) << 1 which then becomes 16. 
+
+The fix to this is to have it as res = a+ (b<<1); where b would be shifted first and turn into 6 and then it will add 5 where you have a totoal of 11. 
+
+corrections: int a=5 , b=3, res;
+            res = a + (b<<1);
